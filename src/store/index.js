@@ -15,8 +15,8 @@ export default new Vuex.Store({
   },
   actions: {
     async loadPosts({ commit }) {
-      let message = message;
-      let url = "https://jsonplaceholder.typicode.com/" + message;
+      let value = event.target.value;
+      let url = "https://jsonplaceholder.typicode.com/" + value;
       await axios
         .get(url, { headers: { "x-dsi-restful": 1 } })
         .then(data => {

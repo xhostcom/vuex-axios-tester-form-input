@@ -3,8 +3,11 @@
     <v-row>
       <v-col cols="12">
         <v-text-field
-          label="Main input"
-          placeholder="Enter search term"
+          v-model="search"
+          autofocus
+          @keyup.enter="loadPosts(event)"
+          label="Enter search term"
+          append-icon="search"
         ></v-text-field>
       </v-col>
     </v-row>
@@ -39,7 +42,7 @@ export default {
   computed: {
     ...mapState(["posts"]),
     ...mapFields({
-      fields: ["message"],
+      fields: ["search"],
       base: "posts",
       action: "loadPosts"
     })
@@ -47,12 +50,3 @@ export default {
   components: {}
 };
 </script>
-<style>
-h1 {
-  padding: 30px;
-  text-align: center;
-}
-h2 {
-  text-align: center;
-}
-</style>
