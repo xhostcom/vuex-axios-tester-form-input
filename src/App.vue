@@ -4,12 +4,12 @@
   </div>
 </template>
 <script>
-// eslint-disable-next-line no-unused-vars
 import { mapFields } from "vuex-map-fields";
 //import * as helpersJs from "extrajs";
 import { mapState } from "vuex";
 export default {
   name: "App",
+  // Get the fields and set them on each change
   mapFields(options) {
     const object = {};
     for (let x = 0; x < options.fields.length; x++) {
