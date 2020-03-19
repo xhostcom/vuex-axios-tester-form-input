@@ -1,14 +1,11 @@
 <template>
-  <v-container id="input-usage" fluid>
+  <v-container id="input" fluid>
     <v-row>
       <v-col cols="12">
-        <v-input
-          :messages="['Message']"
-          append-icon="close"
-          prepend-icon="phone"
-        >
-          Default Slot
-        </v-input>
+        <v-text-field
+          label="Main input"
+          placeholder="Enter search term"
+        ></v-text-field>
       </v-col>
     </v-row>
   </v-container>
