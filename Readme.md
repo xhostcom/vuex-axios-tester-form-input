@@ -8,7 +8,7 @@ Starter Vuex Axios testing rig with basic action, mutations, state, mapState for
 
 ## Repo
 
-
+https://github.com/xhostcom/vuex-axios-tester-form-input.git
 
 ## Author
 
