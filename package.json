@@ -2,6 +2,9 @@
   "name": "vuex-api-tester-form-input",
   "version": "0.1.0",
   "private": true,
+  "author" : "Paul Anthony McGowan",
+  "url" : "https://github.com/xhostcom/vuex-axios-tester-form-input.git",
+  "email" : "support@xhostcom.com",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
