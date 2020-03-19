@@ -5,7 +5,7 @@
 </template>
 <script>
 // eslint-disable-next-line no-unused-vars
-import { mapFields } from 'vuex-map-fields';
+import { mapFields } from "vuex-map-fields";
 //import * as helpersJs from "extrajs";
 import { mapState } from "vuex";
 export default {
